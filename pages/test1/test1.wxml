@@ -1,0 +1,19 @@
+<MyHeader></MyHeader>
+<scroll-view class="myScroll" scroll-x>
+<view class="row">1</view>
+<view class="row">2</view>
+<view class="row">3</view>
+<view class="row">4</view>
+<view class="row">5</view>
+<view class="row">6</view>
+<view class="row">7</view>
+<view class="row">8</view>
+
+</scroll-view>
+<movable-area style="width: 400rpx;height: 400rpx;background: green; overflow: hidden;">
+<movable-view style="width: 120rpx;height: 120rpx; background: red;" direction="all" inertia out-of-bounds>
+<view>demo</view>
+</movable-view>
+</movable-area>
+<navigator url="/pages/test2/test2">test2</navigator>
+<MyFooter name="---你好---"></MyFooter>

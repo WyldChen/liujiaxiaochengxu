@@ -1,0 +1,4 @@
+<!--pages/test5/test5.wxml-->
+<view bind:tap="godemo" style="width: 100rpx;height: 100rpx; background: greenyellow;">
+  
+</view>

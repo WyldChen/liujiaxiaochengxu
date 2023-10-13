@@ -1,0 +1,26 @@
+/* pages/test4/test4.wxss */
+.block{
+  width: 200rpx;
+  height: 200rpx;
+  background: greenyellow;
+}
+.box{
+  margin:50rpx;
+  width: 200rpx;
+  height: 200rpx;
+  background: pink;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.out{
+  padding:30rpx;
+  border:1px solid #ccc;
+  margin: 30rpx;
+}
+.out .ipt{
+  background: #eee;
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+}

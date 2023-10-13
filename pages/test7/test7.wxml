@@ -1,0 +1,11 @@
+<!--pages/test7/test7.wxml-->
+<view class="out">
+  <view class="box" wx:for="{{listarr}}" wx:key="id">
+    <view class="pic">
+      <image src="{{item.url}}" mode="aspectFill" />
+    </view>
+    <view class="name">
+      姓名：{{item.id}}
+    </view>
+  </view>
+</view>

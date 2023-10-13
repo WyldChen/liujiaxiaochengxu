@@ -1,0 +1,1 @@
+<button type="primary" bind:tap="clickbtn">按钮</button>

@@ -1,0 +1,12 @@
+<!--pages/test3/test3.wxml-->
+<MyHeader></MyHeader>
+<text>pages/test3/test3.wxml</text>
+<view>
+我的名字是{{user.name}}
+</view>
+<view>
+  我的年龄为{{user.age+"---"+user.gender}}
+</view>
+<view wx:for="{{books}}">
+书名：{{item}}
+</view>

@@ -1,0 +1,40 @@
+<!--pages/test4/test4.wxml-->
+<text>pages/test4/test4.wxml</text>
+<view class="block" bind:tap="onclick" data-myName="张三">
+  点我
+</view>
+<view class="test">
+姓名：{{name}}
+</view>
+--------------
+<view class="box" bind:tap="clickbox" style="background: {{color}};width: {{size}};height: {{size}}">
+随机数{{num}}
+</view>
+-------------
+
+<view class="out">
+  <input class="ipt" type="text" placeholder="请输入用户名" bindinput="onInput"/>
+  <button type="primary" disabled="{{!title.length}}">按钮</button>
+  <view>{{title}}</view>
+</view>
+
+<checkbox-group bindchange="">
+<view style="margin-bottom: 20rpx;">
+  <label>
+    <checkbox value=""/>
+    <text>钓鱼</text>
+  </label>
+</view>
+<view style="margin-bottom: 20rpx;">
+  <label>
+    <checkbox value=""/>
+    <text>打游戏</text>
+  </label>
+</view>
+<view style="margin-bottom: 20rpx;">
+  <label>
+    <checkbox value="" color="red"/>
+    <text>看书</text>
+  </label>
+</view>
+</checkbox-group>
